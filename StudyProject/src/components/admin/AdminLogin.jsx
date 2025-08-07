@@ -14,14 +14,14 @@ export default function AdminLogin() {
   const handleLogin = async () => {
     setError("");
     try {
-      const res = await axios.post("http://localhost:5000/api/admin/adminlogin", {
+      const res = await axios.post("https://new-project-backend-hhl0.onrender.com/admin/adminlogin", {
         username,
         password,
       });
 
       if (res.data.success) {
         // Save login info (optional)
-        await axios.post("http://localhost:5000/api/adminlogininfo", {
+        await axios.post("https://new-project-backend-hhl0.onrender.com/adminlogininfo", {
           username,
           date: new Date().toISOString(),
         });
