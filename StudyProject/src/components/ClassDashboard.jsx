@@ -35,7 +35,7 @@ const ClassDashboard = () => {
       setSelectedDay(null);
 
       try {
-        await fetch("https://new-project-backend-hhl0.onrender.com/logininfo", {
+        await fetch("https://new-project-backend-hhl0.onrender.com/api/logininfo", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
