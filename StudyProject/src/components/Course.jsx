@@ -9,7 +9,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import axios from "axios";
 
 gsap.registerPlugin(ScrollTrigger);
-const API = "https://new-project-backend-hhl0.onrender.com";
+const API = "https://new-project-backend-hhl0.onrender.com/api";
 
 const Courses = () => {
   const [categories, setCategories] = useState([]);
@@ -65,7 +65,7 @@ useEffect(() => {
 
 const fetchCourses = async () => {
   try {
-    const res = await axios.get("https://new-project-backend-hhl0.onrender.com/courses");
+    const res = await axios.get("https://new-project-backend-hhl0.onrender.com/api/courses");
     setBackendCourses(res.data || []);
   } catch (err) {
     console.error("Failed to fetch courses:", err);
@@ -83,7 +83,7 @@ const fetchCourses = async () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("https://new-project-backend-hhl0.onrender.com/userdetails", formData);
+      await axios.post("https://new-project-backend-hhl0.onrender.com/api/userdetails", formData);
       setSubmitted(true);
       setFormData({ name: "", email: "", mobile: "" });
     } catch (err) {
