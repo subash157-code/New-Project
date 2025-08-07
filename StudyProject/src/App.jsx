@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 import HomePage from "./components/Home";
 import About from "./components/About";
 import Course from "./components/Course";
-import { CartProvider } from "./components/CartContext.Jsx";
+import { CartProvider } from "./components/CartContext.jsx";
 import OnlineBook from "./components/OnlineBook";
 import Contact from "./components/Contact";
 import Gallery from "./components/Gallery";
