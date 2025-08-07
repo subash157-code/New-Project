@@ -7,7 +7,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "./StyleFile/Gallery.css";
 
-const API = "https://new-project-backend-hhl0.onrender.com";
+const API = "https://new-project-backend-hhl0.onrender.com/api";
 
 // Slideshow view component
 const GalleryView = ({ title, description, images, onClose }) => {
