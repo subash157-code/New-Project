@@ -90,7 +90,7 @@ const OnlineBook = () => {
       };
 
       try {
-        const response = await fetch("https://new-project-backend-hhl0.onrender.com/paymentbooking", {
+        const response = await fetch("https://new-project-backend-hhl0.onrender.com/api/paymentbooking", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(bookingData),
