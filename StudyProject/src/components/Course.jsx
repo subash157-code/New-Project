@@ -9,7 +9,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import axios from "axios";
 
 gsap.registerPlugin(ScrollTrigger);
-const API = "http://localhost:5000/api";
+const API = "https://new-project-backend-hhl0.onrender.com";
 
 const Courses = () => {
   const [categories, setCategories] = useState([]);
