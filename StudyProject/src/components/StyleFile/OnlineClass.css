@@ -1,0 +1,138 @@
+/* ========================================================= */
+/* --- Online Class Styles (Desktop First) --- */
+/* ========================================================= */
+.page-container {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f4f6f9;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.image-section {
+  flex: 1;
+  background: url('https://www.infonictraining.com/wp-content/themes/infonictraining/assets/images/website-development.webp') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.login-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background-color: #ffffff;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.login-box {
+  width: 100%;
+  max-width: 380px;
+}
+
+.login-box h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+form input {
+  width: 100%;
+  padding: 12px 14px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+form input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+}
+
+form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+.user-info {
+  margin-top: 30px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+/* ========================================================= */
+/* --- Responsive Styles (Media Queries) --- */
+/* ========================================================= */
+
+/* 💻 Tablet View: min-width 768px to max-width 1023px */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .page-container {
+    max-width: 90%;
+    margin: 30px auto;
+    min-height: auto;
+    border-radius: 10px;
+  }
+  .image-section, .login-section {
+    border-radius: 0;
+  }
+  .login-section {
+    padding: 30px;
+  }
+  .login-box {
+    max-width: 300px;
+  }
+  form input, form button {
+    padding: 10px;
+  }
+}
+
+/* 📱 Mobile View: max-width 767px */
+@media screen and (max-width: 767px) {
+  .page-container {
+    flex-direction: column; /* Stack the sections vertically */
+    min-height: 100vh;
+    border-radius: 0;
+  }
+  .image-section {
+    display: none; /* Hide the image on mobile */
+  }
+  .login-section {
+    flex: 1; /* Make the login section take full height */
+    box-shadow: none;
+    padding: 20px;
+    border-radius: 0;
+  }
+  .login-box {
+    max-width: 100%; /* Allow the box to expand on mobile */
+    margin: auto;
+  }
+  .login-box h2 {
+    font-size: 1.5rem;
+  }
+  form input, form button {
+    padding: 10px;
+    font-size: 14px;
+  }
+}

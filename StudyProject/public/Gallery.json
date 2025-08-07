@@ -1,0 +1,86 @@
+{
+  "galleries": [
+    {
+      "event": "Pongal",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAKX1K84Nh4fqMg9mauOTH_Wx2orS4-lZkDg&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbpKxK-5mmNY-72AFPwlWX8N6mCMo5z2IsIQ&s",
+        "https://i.imgur.com/CLeugcy.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAKX1K84Nh4fqMg9mauOTH_Wx2orS4-lZkDg&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbpKxK-5mmNY-72AFPwlWX8N6mCMo5z2IsIQ&s",
+        "https://i.imgur.com/CLeugcy.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAKX1K84Nh4fqMg9mauOTH_Wx2orS4-lZkDg&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbpKxK-5mmNY-72AFPwlWX8N6mCMo5z2IsIQ&s",
+        "https://i.imgur.com/CLeugcy.jpg"
+      ]
+    },
+    {
+      "event": "Diwali",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYoDUy2GDlfExGPIGrYPMcGwS0cYRPYJxZHkfipWtFBO-8kcySfwA_V3sshlUb9A7BMn0&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwTGZQPEmHYQXH3u6wOM_cn2Y7rIQSlLDOLLJvdRMp3S7RmgaNW_dVQw733-yeTI7AAxs&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK9UAtyyxz8K9Z7CZuXACtdGm3gFoS0iam9g&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYoDUy2GDlfExGPIGrYPMcGwS0cYRPYJxZHkfipWtFBO-8kcySfwA_V3sshlUb9A7BMn0&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwTGZQPEmHYQXH3u6wOM_cn2Y7rIQSlLDOLLJvdRMp3S7RmgaNW_dVQw733-yeTI7AAxs&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK9UAtyyxz8K9Z7CZuXACtdGm3gFoS0iam9g&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYoDUy2GDlfExGPIGrYPMcGwS0cYRPYJxZHkfipWtFBO-8kcySfwA_V3sshlUb9A7BMn0&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwTGZQPEmHYQXH3u6wOM_cn2Y7rIQSlLDOLLJvdRMp3S7RmgaNW_dVQw733-yeTI7AAxs&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK9UAtyyxz8K9Z7CZuXACtdGm3gFoS0iam9g&s"
+      ]
+    },
+    {
+      "event": "Ramzan",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL4OIccIuhmMh-MOej9HzVZ6nxQQPHUKmXJ0XMC8aK00HkMcrhOGaH78NdbokCXP6RSvk&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI2c0Rb0-RsxqNH4Yf9ufdl_SZXmjZyG_UD9Bk0gsTfOIpcE5uu8Ley-Xub6HNh7NONv4&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyHznGuBvzVTdiSHivGXZHZCbpS7ieyIgKpwF0SL3YyzllBOGwDiS522zr1VBKe-AJxXs&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL4OIccIuhmMh-MOej9HzVZ6nxQQPHUKmXJ0XMC8aK00HkMcrhOGaH78NdbokCXP6RSvk&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI2c0Rb0-RsxqNH4Yf9ufdl_SZXmjZyG_UD9Bk0gsTfOIpcE5uu8Ley-Xub6HNh7NONv4&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyHznGuBvzVTdiSHivGXZHZCbpS7ieyIgKpwF0SL3YyzllBOGwDiS522zr1VBKe-AJxXs&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL4OIccIuhmMh-MOej9HzVZ6nxQQPHUKmXJ0XMC8aK00HkMcrhOGaH78NdbokCXP6RSvk&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI2c0Rb0-RsxqNH4Yf9ufdl_SZXmjZyG_UD9Bk0gsTfOIpcE5uu8Ley-Xub6HNh7NONv4&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyHznGuBvzVTdiSHivGXZHZCbpS7ieyIgKpwF0SL3YyzllBOGwDiS522zr1VBKe-AJxXs&usqp=CAU"
+      ]
+    },
+    {
+      "event": "Christmas",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0bztGuSNjA26kREZNn296CVgiAZCo0PIn9g&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ_zMW4pqjDUCygdi9DkCKn4XQoNW-E5gJaA&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBy5C7qnbwYYyPY0yXtiIte0RbUlz5jpagBuHl5RiTvJTV2nD2TLhscdEBbkLTaM9KcIw&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0bztGuSNjA26kREZNn296CVgiAZCo0PIn9g&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ_zMW4pqjDUCygdi9DkCKn4XQoNW-E5gJaA&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBy5C7qnbwYYyPY0yXtiIte0RbUlz5jpagBuHl5RiTvJTV2nD2TLhscdEBbkLTaM9KcIw&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0bztGuSNjA26kREZNn296CVgiAZCo0PIn9g&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ_zMW4pqjDUCygdi9DkCKn4XQoNW-E5gJaA&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBy5C7qnbwYYyPY0yXtiIte0RbUlz5jpagBuHl5RiTvJTV2nD2TLhscdEBbkLTaM9KcIw&usqp=CAU"
+      ]
+    },
+    {
+      "event": "Fun Friday",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAl0wAPOJfnkV6nurZQcSnoP_RMJMGusB31g&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfBu3ORsFSVLUyQvEENEDfnPzUGMtMUQyEtQ&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOf59P9VKcZslplJcU90Ia7QKOSXy3Irl07V3Tf6tN0HZP_GKjhY3-uiwDFiC-hBJswd4&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAl0wAPOJfnkV6nurZQcSnoP_RMJMGusB31g&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfBu3ORsFSVLUyQvEENEDfnPzUGMtMUQyEtQ&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOf59P9VKcZslplJcU90Ia7QKOSXy3Irl07V3Tf6tN0HZP_GKjhY3-uiwDFiC-hBJswd4&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAl0wAPOJfnkV6nurZQcSnoP_RMJMGusB31g&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfBu3ORsFSVLUyQvEENEDfnPzUGMtMUQyEtQ&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOf59P9VKcZslplJcU90Ia7QKOSXy3Irl07V3Tf6tN0HZP_GKjhY3-uiwDFiC-hBJswd4&usqp=CAU"
+      ]
+    },
+    {
+      "event": "Other Events",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrlIsyVUX1lvfNjyC1TOLiuaGdoKNjSsui2g&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrlIsyVUX1lvfNjyC1TOLiuaGdoKNjSsui2g&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrlIsyVUX1lvfNjyC1TOLiuaGdoKNjSsui2g&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrlIsyVUX1lvfNjyC1TOLiuaGdoKNjSsui2g&s",
+        "https://content.jdmagicbox.com/v2/comp/coimbatore/h7/0422px422.x422.140715122141.r2h7/catalogue/cp-events-peelamedu-coimbatore-event-organisers-for-dance-parties-9rv6hx63qq.jpg",
+        "https://content.jdmagicbox.com/v2/comp/coimbatore/h7/0422px422.x422.140715122141.r2h7/catalogue/cp-events-peelamedu-coimbatore-event-organisers-for-dance-parties-9rv6hx63qq.jpg",
+        "https://content.jdmagicbox.com/v2/comp/coimbatore/h7/0422px422.x422.140715122141.r2h7/catalogue/cp-events-peelamedu-coimbatore-event-organisers-for-dance-parties-9rv6hx63qq.jpg"
+      ]
+    }
+  ]
+}

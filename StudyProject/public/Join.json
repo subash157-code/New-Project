@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "title": "Ready to Learn?",
+    "highlight": "Join Our Courses Today!",
+    "subheading": "Flexible. Affordable. Personalized.",
+    "description": "Access top-rated courses from anywhere. Start learning at your own pace.",
+    "buttonText": "Explore Courses",
+    "link": "/courses",
+    "icon": "fa-solid fa-graduation-cap",
+    "bgColor": "#e0f2fe"
+  },
+  {
+    "id": 2,
+    "title": "Get Certified",
+    "highlight": "Enhance Your Skills",
+    "subheading": "Industry Recognized Certifications",
+    "description": "Earn a professional certificate and boost your career.",
+    "buttonText": "View Certifications",
+    "link": "/certifications",
+    "icon": "fa-solid fa-certificate",
+    "bgColor": "#fffbea"
+  }
+]

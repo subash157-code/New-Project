@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "category": "AI",
+    "title": "Artificial Intelligence Mastery",
+    "description": "Learn deep learning, neural networks, and AI deployment from industry experts.",
+    "duration": "6 months",
+    "image": "https://www.theorsociety.com/images/ors/events/sigs/ai.jpg?version=197A0A99"
+  },
+  {
+    "id": 2,
+    "category": "AI",
+    "title": "AI for Business Applications",
+    "description": "Use AI models for automation, decision-making, and NLP-driven insights.",
+    "duration": "2.5 months",
+    "image": "https://www.theorsociety.com/images/ors/events/sigs/ai.jpg?version=197A0A99"
+  },
+  {
+    "id": 3,
+    "category": "Cloud Computing",
+    "title": "Cloud Architect Certification",
+    "description": "Become a certified cloud expert with AWS, Azure, and GCP technologies.",
+    "duration": "4 months",
+    "image": "https://www.draegan.com/content/images/2021/08/YT-Cloud-Computing-2.png"
+  },
+  {
+    "id": 4,
+    "category": "Cloud Computing",
+    "title": "DevOps & Cloud Automation",
+    "description": "Build CI/CD pipelines and deploy microservices in cloud environments.",
+    "duration": "4 months",
+    "image": "https://img.computing.es/wp-content/uploads/2024/03/19095219/Cloud-Computing-1.jpg"
+  },
+  {
+    "id": 5,
+    "category": "Cyber Security",
+    "title": "Ethical Hacking & Cyber Security",
+    "description": "Master penetration testing, network security, and cyber law compliance.",
+    "duration": "3 months",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8_7G93fjxd53NLDSlZNEiqGYmzDejgHxiHQ&s"
+  },
+  {
+    "id": 6,
+    "category": "Cyber Security",
+    "title": "Network Security Analyst",
+    "description": "Secure enterprise systems with firewalls, IDS/IPS, and forensic analysis.",
+    "duration": "3.5 months",
+    "image": "https://www.cpomagazine.com/wp-content/uploads/2020/06/data-privacy-and-cybersecurity-collides-with-the-world-of-intellectual-property-in-the-new-decade_1500.jpg"
+  },
+  {
+    "id": 7,
+    "category": "Web Apps",
+    "title": "Full Stack Web Development",
+    "description": "Develop complete web apps using React, Node.js, MongoDB, and Express.",
+    "duration": "5 months",
+    "image": "https://www.scnsoft.com/blog-pictures/web-apps/eng---progressive-web-apps.png"
+  },
+  {
+    "id": 8,
+    "category": "Web Apps",
+    "title": "Modern Front-End with React & Tailwind",
+    "description": "Craft sleek interfaces with responsive design and animation frameworks.",
+    "duration": "3 months",
+    "image": "https://miro.medium.com/v2/resize:fit:512/1*GaBtlHe240ZkwlcBrFczgQ.jpeg"
+  },
+  {
+    "id": 9,
+    "category": "Mobile App Development",
+    "title": "Android App Development",
+    "description": "Build high-performance mobile apps using Kotlin and Jetpack.",
+    "duration": "4 months",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ5HEsrSUyXBDaFqBjJHTjWxLNJVUam8rIsg&s"
+  },
+  {
+    "id": 10,
+    "category": "Mobile App Development",
+    "title": "Cross-Platform Apps with Flutter",
+    "description": "Create beautiful apps for Android & iOS with a single codebase.",
+    "duration": "3.5 months",
+    "image": "https://ideausher.com/wp-content/uploads/2022/04/covr-image-2_result.webp"
+  },
+  {
+    "id": 11,
+    "category": "Networking",
+    "title": "Cisco CCNA Routing & Switching",
+    "description": "Get certified in routing, switching, and network troubleshooting.",
+    "duration": "2.5 months",
+    "image": "https://universae.com/wp-content/uploads/2023/06/que-es-el-networking.webp"
+  },
+  {
+    "id": 12,
+    "category": "Networking",
+    "title": "Network Administration with Linux",
+    "description": "Learn DHCP, DNS, firewalls, and shell scripting in Linux networks.",
+    "duration": "3 months",
+    "image": "https://miro.medium.com/v2/resize:fit:803/1*E4lFl0-xX1L5uZXIyBQdsQ.jpeg"
+  },
+  {
+    "id": 13,
+    "category": "Servers",
+    "title": "Linux Server Management",
+    "description": "Configure and secure Apache, NGINX, and MySQL on Linux servers.",
+    "duration": "3 months",
+    "image": "https://server.jpnn.com/wp-content/uploads/2025/02/Kenali-Perbedaan-Dedicated-Server-dan-Dedicated-Hosting-1021x570-1.jpg"
+  },
+  {
+    "id": 14,
+    "category": "Servers",
+    "title": "Windows Server Administration",
+    "description": "Manage Active Directory, PowerShell, and server roles in enterprise.",
+    "duration": "2.5 months",
+    "image": "https://media.bizj.us/view/img/11590645/gettyimages-885294108*900xx3530-1991-1135-1035.jpg"
+  },
+  {
+  "Limittitle": "Limitless Learning, Limitless Opportunities",
+  "Limitdescription": "Unlock your future with tailored courses, expert mentorship, and real-world projects. Whether you're starting out or leveling up, our platform empowers you to grow without limits. Be it any course from our catalogs, such as full-stack, data science, Python and Java, data analytics, embedded systems, web development, digital marketing, artificial intelligence, machine learning, or Power BI. The milestones have been curated in such a way as to cater to the skills and placement opportunities.",
+  "LimitbuttonText": "Explore Courses",
+  "Limitimages": "https://www.xploreitcorp.com/wp-content/uploads/2025/03/1-1-2.webp"
+  
+}
+
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "title": "Full Stack Web Development",
+    "category": "Development",
+    "image": "https://marketplace.canva.com/EAFy42rCTA0/1/0/1600w/canva-blue-minimalist-certificate-of-achievement-_asVJz8YgJE.jpg",
+    "issuer": "IIE Academy",
+    "duration": "6 Months",
+    "issuedDate": "2024-11-01",
+    "certificateId": "DEV-001"
+  },
+  {
+    "id": 2,
+    "title": "React.js Frontend Certification",
+    "category": "Development",
+    "image": "https://static.vecteezy.com/system/resources/thumbnails/002/349/754/small_2x/modern-elegant-certificate-template-free-vector.jpg",
+    "issuer": "IIE Academy",
+    "duration": "3 Months",
+    "issuedDate": "2024-12-15",
+    "certificateId": "DEV-002"
+  },
+  {
+    "id": 3,
+    "title": "Python for Data Science",
+    "category": "Data Science",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmM9wKC_7Si0VF3N-M1g8DAn37MZ5AAFd7JtOkxzb3KXy5vfyeEVsfnDQlzgQyx5E176M&usqp=CAU",
+    "issuer": "IIE Academy",
+    "duration": "4 Months",
+    "issuedDate": "2025-01-10",
+    "certificateId": "DS-001"
+  },
+  {
+    "id": 4,
+    "title": "Machine Learning with AI",
+    "category": "Artificial Intelligence",
+    "image": "https://slidemodel.com/wp-content/uploads/FF0417-01-free-certificate-template-16x9-1.jpg",
+    "issuer": "IIE Academy",
+    "duration": "5 Months",
+    "issuedDate": "2025-01-25",
+    "certificateId": "AI-001"
+  },
+  {
+    "id": 5,
+    "title": "Digital Marketing Professional",
+    "category": "Digital Marketing",
+    "image": "https://i.etsystatic.com/33643138/r/il/e23b77/3924072924/il_fullxfull.3924072924_j3av.jpg",
+    "issuer": "IIE Academy",
+    "duration": "2 Months",
+    "issuedDate": "2025-02-01",
+    "certificateId": "DM-001"
+  },
+  {
+    "id": 6,
+    "title": "SEO & Google Ads Certified",
+    "category": "Digital Marketing",
+    "image": "https://www.slideegg.com/image/catalog/477793-certificate-of-training-template-ppt.png",
+    "issuer": "IIE Academy",
+    "duration": "2.5 Months",
+    "issuedDate": "2025-02-10",
+    "certificateId": "DM-002"
+  },
+  {
+    "id": 7,
+    "title": "AWS Cloud Practitioner",
+    "category": "Cloud Computing",
+    "image": "https://slidebazaar.com/wp-content/uploads/2024/03/Free-Certificate-PowerPoint-Template-characters.jpg",
+    "issuer": "IIE Academy",
+    "duration": "3 Months",
+    "issuedDate": "2025-03-01",
+    "certificateId": "CLOUD-001"
+  },
+  {
+    "id": 8,
+    "title": "Microsoft Azure Fundamentals",
+    "category": "Cloud Computing",
+    "image": "https://powerslides.com/wp-content/uploads/2020/04/Certificate-Templates-1.png",
+    "issuer": "IIE Academy",
+    "duration": "3 Months",
+    "issuedDate": "2025-03-15",
+    "certificateId": "CLOUD-002"
+  },
+  {
+    "id": 9,
+    "title": "Software Testing Foundation",
+    "category": "Testing",
+    "image": "https://s.tmimgcdn.com/scr/800x500/297700/certificate-template-with-print_297747-original.jpg",
+    "issuer": "IIE Academy",
+    "duration": "2 Months",
+    "issuedDate": "2025-04-01",
+    "certificateId": "TEST-001"
+  },
+  {
+    "id": 10,
+    "title": "Automation Testing with Selenium",
+    "category": "Testing",
+    "image": "https://slidebazaar.com/wp-content/uploads/2024/03/Free-Certificate-PowerPoint-Template-featured-image.jpg",
+    "issuer": "IIE Academy",
+    "duration": "3 Months",
+    "issuedDate": "2025-04-15",
+    "certificateId": "TEST-002"
+  }
+]

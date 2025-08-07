@@ -1,0 +1,183 @@
+{
+  "1": {
+    "question": "What is React?",
+    "options": ["Library", "Framework", "Language", "Database"],
+    "answer": "Library",
+    "video": "https://www.youtube.com/embed/CgkZ7MvWUAA?si=Epz0sNhVMN9ymXvg&amp;start=11"
+  },
+  
+  "2": {
+    "question": "JSX stands for?",
+    "options": ["Java XML", "JSON Syntax", "JavaScript XML", "None"],
+    "answer": "JavaScript XML",
+   "video": "https://www.youtube.com/embed/CgkZ7MvWUAA?si=Epz0sNhVMN9ymXvg&amp;start=11"
+  },
+  "3": {
+    "question": "Which method is used to create components?",
+    "options": ["React.create()", "React.component()", "React.createElement()", "React.makeComponent()"],
+    "answer": "React.createElement()",
+    "video": "https://www.youtube.com/embed/CgkZ7MvWUAA?si=Epz0sNhVMN9ymXvg&amp;start=11"
+  },
+  "4": {
+    "question": "What hook is used for state management?",
+    "options": ["useRef", "useState", "useEffect", "useMemo"],
+    "answer": "useState",
+   "video": "https://www.youtube.com/embed/CgkZ7MvWUAA?si=Epz0sNhVMN9ymXvg&amp;start=11"
+  },
+  "5": {
+    "question": "Which hook runs side effects?",
+    "options": ["useCallback", "useEffect", "useMemo", "useReducer"],
+    "answer": "useEffect",
+    "video": "https://www.youtube.com/embed/CgkZ7MvWUAA?si=Epz0sNhVMN9ymXvg&amp;start=11"
+  },
+  "6": {
+    "question": "Props in React are?",
+    "options": ["Mutable", "Immutable", "Private", "Optional"],
+    "answer": "Immutable",
+    "video": "https://www.youtube.com/embed/CgkZ7MvWUAA?si=Epz0sNhVMN9ymXvg&amp;start=11"
+  },
+  "7": {
+    "question": "What is the virtual DOM?",
+    "options": ["UI representation", "Real browser DOM", "JavaScript object", "Temporary DOM"],
+    "answer": "JavaScript object",
+    "video": "https://www.youtube.com/embed/CgkZ7MvWUAA?si=Epz0sNhVMN9ymXvg&amp;start=11"
+  },
+  "8": {
+    "question": "Which command creates a React app?",
+    "options": ["npm react-app", "npx create-react-app", "npm create app", "npx react-new"],
+    "answer": "npx create-react-app",
+    "video": "https://www.youtube.com/embed/CgkZ7MvWUAA?si=Epz0sNhVMN9ymXvg&amp;start=11"
+  },
+  "9": {
+    "question": "What is a React fragment?",
+    "options": ["Special component", "Virtual DOM part", "Empty tag", "All of the above"],
+    "answer": "All of the above",
+    "video": "https://www.youtube.com/embed/CgkZ7MvWUAA?si=Epz0sNhVMN9ymXvg&amp;start=11"
+  },
+  "10": {
+    "question": "What is the default port of React app?",
+    "options": ["3000", "8000", "5000", "4000"],
+    "answer": "3000",
+   "video": "https://www.youtube.com/embed/CgkZ7MvWUAA?si=Epz0sNhVMN9ymXvg&amp;start=11"
+  },
+  "11": {
+    "question": "What does ReactDOM.render() do?",
+    "options": ["Updates DOM", "Creates component", "Adds styles", "Builds bundle"],
+    "answer": "Updates DOM",
+    "video": "https://www.youtube.com/embed/CgkZ7MvWUAA?si=Epz0sNhVMN9ymXvg&amp;start=11"
+  },
+  "12": {
+    "question": "Which keyword is used to import hooks?",
+    "options": ["include", "get", "import", "require"],
+    "answer": "import",
+   "video": "https://www.youtube.com/embed/CgkZ7MvWUAA?si=Epz0sNhVMN9ymXvg&amp;start=11"
+  },
+  "13": {
+    "question": "What is a controlled component?",
+    "options": ["Has internal state", "DOM manages input", "State managed by React", "Uses refs"],
+    "answer": "State managed by React",
+   "video": "https://www.youtube.com/embed/CgkZ7MvWUAA?si=Epz0sNhVMN9ymXvg&amp;start=11"
+  },
+  "14": {
+    "question": "What is useRef used for?",
+    "options": ["Re-render component", "Side effects", "Reference DOM", "Style components"],
+    "answer": "Reference DOM",
+    "video": "https://www.youtube.com/embed/CgkZ7MvWUAA?si=Epz0sNhVMN9ymXvg&amp;start=11"
+  },
+  "15": {
+    "question": "How can we lift state up?",
+    "options": ["Using refs", "Moving state to parent", "Creating context", "Using Redux"],
+    "answer": "Moving state to parent",
+   "video": "https://www.youtube.com/embed/CgkZ7MvWUAA?si=Epz0sNhVMN9ymXvg&amp;start=11"
+  },
+  "16": {
+    "question": "Which one is a state management library?",
+    "options": ["jQuery", "Lodash", "Redux", "Babel"],
+    "answer": "Redux",
+   "video": "https://www.youtube.com/embed/CgkZ7MvWUAA?si=Epz0sNhVMN9ymXvg&amp;start=11"
+  },
+  "17": {
+    "question": "What is context API used for?",
+    "options": ["Global styling", "Global state sharing", "API fetching", "Local component styling"],
+    "answer": "Global state sharing",
+   "video": "https://www.youtube.com/embed/CgkZ7MvWUAA?si=Epz0sNhVMN9ymXvg&amp;start=11"
+  },
+  "18": {
+    "question": "What is lazy loading?",
+    "options": ["Load all data", "Load on scroll", "Load only when needed", "Load from cache"],
+    "answer": "Load only when needed",
+   "video": "https://www.youtube.com/embed/CgkZ7MvWUAA?si=Epz0sNhVMN9ymXvg&amp;start=11"
+  },
+  "19": {
+    "question": "React Router is used for?",
+    "options": ["API calls", "Styling", "Navigation", "State management"],
+    "answer": "Navigation",
+    "video": "https://www.youtube.com/embed/CgkZ7MvWUAA?si=Epz0sNhVMN9ymXvg&amp;start=11"
+  },
+  "20": {
+    "question": "What is a higher-order component?",
+    "options": ["Component with more props", "Function that returns a component", "Nested component", "Component with loop"],
+    "answer": "Function that returns a component",
+   "video": "https://www.youtube.com/embed/CgkZ7MvWUAA?si=Epz0sNhVMN9ymXvg&amp;start=11"
+  },
+  "21": {
+    "question": "Which lifecycle method is called after render?",
+    "options": ["componentDidMount", "render", "componentWillMount", "shouldComponentUpdate"],
+    "answer": "componentDidMount",
+   "video": "https://www.youtube.com/embed/CgkZ7MvWUAA?si=Epz0sNhVMN9ymXvg&amp;start=11"
+  },
+  "22": {
+    "question": "React key prop is used for?",
+    "options": ["CSS", "State", "Unique identification", "ClassName"],
+    "answer": "Unique identification",
+    "video": "https://www.youtube.com/embed/CgkZ7MvWUAA?si=Epz0sNhVMN9ymXvg&amp;start=11"
+  },
+  "23": {
+    "question": "How to pass data from child to parent?",
+    "options": ["Props", "Callback function", "useRef", "State"],
+    "answer": "Callback function",
+   "video": "https://www.youtube.com/embed/CgkZ7MvWUAA?si=Epz0sNhVMN9ymXvg&amp;start=11"
+  },
+  "24": {
+    "question": "What is the purpose of keys in a list?",
+    "options": ["Speed", "Unique identification", "Order sorting", "State tracking"],
+    "answer": "Unique identification",
+   "video": "https://www.youtube.com/embed/CgkZ7MvWUAA?si=Epz0sNhVMN9ymXvg&amp;start=11"
+  },
+  "25": {
+    "question": "How many elements can a React component return?",
+    "options": ["Only one", "Multiple with Fragment", "Unlimited", "Two"],
+    "answer": "Multiple with Fragment",
+   "video": "https://www.youtube.com/embed/CgkZ7MvWUAA?si=Epz0sNhVMN9ymXvg&amp;start=11"
+  },
+  "26": {
+    "question": "React StrictMode is used for?",
+    "options": ["Production optimization", "Finding potential problems", "Faster render", "Hook control"],
+    "answer": "Finding potential problems",
+    "video": "https://www.youtube.com/embed/CgkZ7MvWUAA?si=Epz0sNhVMN9ymXvg&amp;start=11"
+  },
+  "27": {
+    "question": "What is a memoized component?",
+    "options": ["Cached component", "Fast render", "Preloaded UI", "Compiled JSX"],
+    "answer": "Cached component",
+   "video": "https://www.youtube.com/embed/CgkZ7MvWUAA?si=Epz0sNhVMN9ymXvg&amp;start=11"
+  },
+  "28": {
+    "question": "What is React's default export type?",
+    "options": ["CommonJS", "ES6", "AMD", "None"],
+    "answer": "ES6",
+   "video": "https://www.youtube.com/embed/CgkZ7MvWUAA?si=Epz0sNhVMN9ymXvg&amp;start=11"
+  },
+  "29": {
+    "question": "Which one is NOT a React hook?",
+    "options": ["useReducer", "useEffect", "useState", "useStyle"],
+    "answer": "useStyle",
+    "video": "https://www.youtube.com/embed/CgkZ7MvWUAA?si=Epz0sNhVMN9ymXvg&amp;start=11"
+  },
+  "30": {
+    "question": "React uses which rendering method?",
+    "options": ["Server-side only", "Client-side only", "Declarative", "Imperative"],
+    "answer": "Declarative",
+    "video": "https://www.youtube.com/embed/CgkZ7MvWUAA?si=Epz0sNhVMN9ymXvg&amp;start=11"
+  }
+}

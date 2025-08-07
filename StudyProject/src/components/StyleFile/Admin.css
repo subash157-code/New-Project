@@ -1,0 +1,351 @@
+/* src/StyleFile/Admin.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+:root {
+  --primary-color: #4a90e2;
+  --secondary-color: #f6f8f9;
+  --text-color: #333;
+  --text-light: #666;
+  --bg-light: #fff;
+  --border-color: #e0e0e0;
+  --shadow-light: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-hover: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
+.admin-dashboard {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: var(--bg-light);
+  border-radius: 12px;
+  box-shadow: var(--shadow-light);
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: var(--text-light);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+/* Summary Cards */
+.summary-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.summary-card {
+  background-color: var(--bg-light);
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: var(--shadow-light);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  border: 1px solid var(--border-color);
+}
+
+.summary-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-hover);
+}
+
+.summary-card h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 0;
+  color: var(--primary-color);
+}
+
+.summary-card p {
+  font-size: 1rem;
+  color: var(--text-light);
+  margin: 0;
+}
+
+/* --- BUTTONS & FORMS --- */
+
+/* Add Buttons Section */
+.add-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+
+.add-buttons button,
+.form-section button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  width: auto;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Specific styling for the 'Add' buttons */
+.add-buttons button {
+  background-color: #000;
+  color: #fff;
+}
+
+.add-buttons button:hover {
+  background-color: #333;
+  transform: translateY(-2px);
+}
+
+/* Styling for the 'Submit' and 'Cancel' buttons in the form */
+.form-section button {
+  background-color: #000;
+  color: #fff;
+}
+
+.form-section button:hover {
+  background-color: #333;
+}
+
+.form-section button[type="button"] { /* For the 'Cancel' button */
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.form-section button[type="button"]:hover {
+  background-color: #ccc;
+}
+
+/* Back Button */
+.back-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: none;
+  border: none;
+  color: #000;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  padding: 0.5rem 0;
+  transition: transform 0.2s ease;
+}
+
+.back-button:hover {
+  transform: translateX(-5px);
+  color: #555;
+}
+
+/* Explicitly set icon color to black for consistency */
+.add-buttons button svg,
+.form-section button svg,
+.back-button svg {
+  color: #fff !important; /* Icons for add buttons are white */
+}
+
+/* Overriding icon colors for the table actions to be black as requested */
+.table-actions button svg {
+  color: #000 !important;
+}
+
+/* Form Section */
+.form-section {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: var(--shadow-light);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-section input,
+.form-section textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.form-section input[type="file"] {
+  padding: 0;
+  border: none;
+}
+
+/* Table View */
+.section-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 0;
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  border-radius: 8px;
+  box-shadow: var(--shadow-light);
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+.data-table th,
+.data-table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.data-table th {
+  background-color: var(--primary-color);
+  color: #fff;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.data-table tr:nth-child(even) {
+  background-color: var(--secondary-color);
+}
+
+.data-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.table-actions {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+
+.table-actions button {
+  background: none;
+  border: 1px solid var(--border-color);
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.table-actions button:hover {
+  transform: scale(1.1);
+  background-color: var(--border-color);
+}
+
+/* Resetting icon colors to black for table actions */
+.table-actions .FiEdit,
+.table-actions .FiTrash2,
+.table-actions .FiCheck,
+.table-actions .FiX {
+  color: #000 !important;
+}
+
+.edit-input {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid var(--primary-color);
+  box-sizing: border-box;
+}
+
+.image-preview img,
+.gallery-image {
+  border-radius: 4px;
+  border: 1px solid var(--border-color);
+}
+/* src/StyleFile/Gallery.css */
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.gallery-card {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.gallery-card-header {
+  padding: 1rem;
+  text-align: center;
+}
+
+.gallery-card-header h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.gallery-images-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 0.5rem;
+  padding: 0.5rem;
+  background-color: #f6f8f9;
+}
+
+.gallery-image {
+  width: 100%;
+  height: 100px; /* Fixed height for consistent grid */
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.gallery-description {
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.gallery-meta {
+  padding: 0 1rem 1rem;
+  font-size: 0.8rem;
+  color: #999;
+}

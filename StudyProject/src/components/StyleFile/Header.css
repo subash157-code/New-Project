@@ -1,0 +1,257 @@
+/* src/components/StyleFile/Header.css */
+
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f7fa;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+.header-left {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  outline: none;
+  border: none;
+}
+
+.header-Name {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #34495e;
+  letter-spacing: 0.05rem;
+  border: none;
+}
+
+.jumping-letter {
+    border: none;
+  display: inline-block;
+  transform: translateY(0);
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* Animation on hover for the entire header-left container */
+.header-left:hover .jumping-letter {
+  animation: jump 0.8s infinite;
+}
+
+@keyframes jump {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px) scale(1.1);
+    color: #3498db;
+  }
+}
+
+/* Desktop Navigation */
+.nav-desktop {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 2rem;
+  text-align: left;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #555;
+  font-size: 1rem;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-list a::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #3498db;
+  transition: width 0.3s ease-in-out;
+}
+
+.nav-list a:hover {
+  color: #3498db;
+  transform: translateY(-2px);
+  
+}
+
+.nav-list a:hover::after {
+  width: 100%;
+  
+}
+
+/* Active link styles with scale and skewY */
+.nav-list .active-link {
+  color: #3498db;
+  transform: scale(1.2) rotate(5deg);
+    font-family: 'Orbitron', sans-serif;
+}
+
+.nav-list .active-link::after {
+  width: 100%;
+ 
+}
+
+.sidebar-icons {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.sidebar-icon {
+  font-size: 1.5rem;
+  color: #7f8c8d;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.sidebar-icon:hover {
+  color: #3498db;
+  transform: scale(1.2) rotate(5deg);
+}
+
+/* Mobile Toggle and Sidebar (Hidden on Desktop) */
+.menu-toggle {
+  display: none;
+}
+
+.sidebar, .sidebar-backdrop {
+  display: none;
+}
+
+/* Media Query for Mobile and Tablet (767px and below) */
+@media (max-width: 767px) {
+  .header {
+    padding: 1rem 1.5rem;
+  }
+
+  .nav-desktop {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: block;
+    font-size: 1.8rem;
+    color: #34495e;
+    cursor: pointer;
+    z-index: 1002;
+    transition: transform 0.3s ease;
+  }
+
+  .menu-toggle:hover {
+    transform: scale(1.1);
+  }
+
+  /* Mobile Sidebar Styles */
+  .sidebar {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 75%;
+    max-width: 300px;
+    height: 100vh;
+    background-color: #fff;
+    box-shadow: -4px 0 10px rgba(0, 0, 0, 0.1);
+    transition: right 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 1001;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1.5rem;
+  }
+
+  .sidebar.open {
+    right: 0;
+  }
+
+  .sidebar-header {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 2rem;
+  }
+
+  .sidebar-close-icon {
+    font-size: 1.8rem;
+    color: #555;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  .sidebar-close-icon:hover {
+    transform: rotate(90deg);
+  }
+
+  .sidebar-nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .sidebar-nav-list li {
+    margin-bottom: 1.5rem;
+  }
+
+  .sidebar-nav-list a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #333;
+    display: block;
+    padding: 0.5rem 0;
+    transition: color 0.3s ease, padding-left 0.3s ease;
+  }
+
+  .sidebar-nav-list a:hover {
+    color: #3498db;
+    padding-left: 10px;
+  }
+
+  /* Active sidebar link with scale and skewY */
+  .active-sidebar-link {
+    color: #3498db;
+    padding-left: 10px;
+    transform: scale(1.05) skewY(-3deg);
+  }
+
+  .sidebar .sidebar-icons {
+    margin-top: auto;
+    padding-top: 1.5rem;
+    border-top: 1px solid #eee;
+  }
+
+  .sidebar-backdrop {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+  }
+}

@@ -1,0 +1,702 @@
+[
+  {
+    "course": "JavaScript Basics",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "What is the output of `console.log(typeof null)`?",
+        "options": ["'null'", "'undefined'", "'object'", "'number'"],
+        "answer": "'object'"
+      },
+      {
+        "id": "q2",
+        "question": "What is the result of `1 + '2' + 3`?",
+        "options": ["'123'", "'33'", "'6'", "'15'"],
+        "answer": "'123'"
+      },
+      {
+        "id": "q3",
+        "question": "What does the `===` operator check?",
+        "options": ["Value only", "Type only", "Value and Type", "Memory reference"],
+        "answer": "Value and Type"
+      },
+      {
+        "id": "q4",
+        "question": "Which method converts JSON string to an object?",
+        "options": ["JSON.stringify()", "JSON.parse()", "JSON.toObject()", "JSON.convert()"],
+        "answer": "JSON.parse()"
+      },
+      {
+        "id": "q5",
+        "question": "What is the output of `typeof NaN`?",
+        "options": ["'NaN'", "'number'", "'undefined'", "'object'"],
+        "answer": "'number'"
+      },
+      {
+        "id": "q6",
+        "question": "Which of the following is a valid function declaration?",
+        "options": ["function = myFunc {}", "function myFunc() {}", "func myFunc {}", "function: myFunc() {}"],
+        "answer": "function myFunc() {}"
+      },
+      {
+        "id": "q7",
+        "question": "What is the output of `Boolean([])`?",
+        "options": ["true", "false", "undefined", "TypeError"],
+        "answer": "true"
+      },
+      {
+        "id": "q8",
+        "question": "What is a closure in JavaScript?",
+        "options": ["A block-scoped function", "A function with access to its lexical scope", "A loop construct", "A class method"],
+        "answer": "A function with access to its lexical scope"
+      },
+      {
+        "id": "q9",
+        "question": "Which method delays code execution?",
+        "options": ["setTimeout", "wait()", "pause()", "delay()"],
+        "answer": "setTimeout"
+      },
+      {
+        "id": "q10",
+        "question": "What is the result of `0.1 + 0.2 === 0.3`?",
+        "options": ["true", "false", "NaN", "undefined"],
+        "answer": "false"
+      },
+      {
+        "id": "q11",
+        "question": "What is hoisting in JS?",
+        "options": ["Moving functions to the end", "Calling before declaration", "Declarations moved to top", "Code loading in order"],
+        "answer": "Declarations moved to top"
+      },
+      {
+        "id": "q12",
+        "question": "What will `[] + {}` return?",
+        "options": ["[object Object]", "NaN", "undefined", "'[object Object]'"],
+        "answer": "'[object Object]'"
+      },
+      {
+        "id": "q13",
+        "question": "Which is NOT a valid JS datatype?",
+        "options": ["Boolean", "Number", "Character", "String"],
+        "answer": "Character"
+      },
+      {
+        "id": "q14",
+        "question": "How do you declare a constant variable?",
+        "options": ["var", "const", "let", "static"],
+        "answer": "const"
+      },
+      {
+        "id": "q15",
+        "question": "What does `map()` return?",
+        "options": ["Same array", "New transformed array", "Filtered array", "Boolean"],
+        "answer": "New transformed array"
+      }
+    ]
+  },
+  {
+    "course": "Python Fundamentals",
+    "questions": [
+     
+  {
+    "id": "q1",
+    "question": "What is the output of `print(type([]))`?",
+    "options": ["<class 'list'>", "<type 'list'>", "list", "None"],
+    "answer": "<class 'list'>"
+  },
+  {
+    "id": "q2",
+    "question": "What is the output of `print(2 ** 3 ** 2)`?",
+    "options": ["64", "512", "16", "256"],
+    "answer": "512"
+  },
+  {
+    "id": "q3",
+    "question": "What is the type of `range(5)`?",
+    "options": ["list", "range", "generator", "array"],
+    "answer": "range"
+  },
+  {
+    "id": "q4",
+    "question": "Which is a mutable type in Python?",
+    "options": ["tuple", "str", "list", "int"],
+    "answer": "list"
+  },
+  {
+    "id": "q5",
+    "question": "What is the output of `bool('False')`?",
+    "options": ["True", "False", "None", "TypeError"],
+    "answer": "True"
+  },
+  {
+    "id": "q6",
+    "question": "What does `pass` do in Python?",
+    "options": ["Skips iteration", "Breaks loop", "Does nothing", "Raises error"],
+    "answer": "Does nothing"
+  },
+  {
+    "id": "q7",
+    "question": "Which operator is used for floor division?",
+    "options": ["/", "//", "%", "**"],
+    "answer": "//"
+  },
+  {
+    "id": "q8",
+    "question": "What is the output of `3 * '7'`?",
+    "options": ["21", "'777'", "TypeError", "'21'"],
+    "answer": "'777'"
+  },
+  {
+    "id": "q9",
+    "question": "How do you write a comment?",
+    "options": ["//", "#", "/* */", "--"],
+    "answer": "#"
+  },
+  {
+    "id": "q10",
+    "question": "What is the output of `len({'a': 1, 'b': 2})`?",
+    "options": ["2", "3", "1", "None"],
+    "answer": "2"
+  },
+  {
+    "id": "q11",
+    "question": "What is the result of `list('abc')`?",
+    "options": ["['abc']", "['a','b','c']", "abc", "Error"],
+    "answer": "['a','b','c']"
+  },
+  {
+    "id": "q12",
+    "question": "What will `print(None == 0)` output?",
+    "options": ["True", "False", "None", "Error"],
+    "answer": "False"
+  },
+  {
+    "id": "q13",
+    "question": "What is a lambda function?",
+    "options": ["Recursive function", "Named function", "Anonymous function", "Static method"],
+    "answer": "Anonymous function"
+  },
+  {
+    "id": "q14",
+    "question": "Which creates a tuple?",
+    "options": ["(1, 2)", "[1, 2]", "{1, 2}", "<1, 2>"],
+    "answer": "(1, 2)"
+  },
+  {
+    "id": "q15",
+    "question": "Which method appends item to list?",
+    "options": [".append()", ".add()", ".push()", ".insert()"],
+    "answer": ".append()"
+  }  
+     ]  
+  },
+  {
+    "course": "React",
+    "questions": 
+     [
+  {
+    "id": "q1",
+    "question": "What is the command to create a new React app using Create React App?",
+    "options": ["npx create-react-app myApp", "npm install react-app", "react-init myApp", "create-react myApp"],
+    "answer": "npx create-react-app myApp"
+  },
+  {
+    "id": "q2",
+    "question": "Which hook is used to manage state in functional components?",
+    "options": ["useState", "useEffect", "useContext", "useReducer"],
+    "answer": "useState"
+  },
+  {
+    "id": "q3",
+    "question": "What will this return? typeof React",
+    "options": ["object", "function", "undefined", "symbol"],
+    "answer": "object"
+  },
+  {
+    "id": "q4",
+    "question": "Which of these is the correct syntax for a functional component?",
+    "options": ["function MyComponent() { return <div></div> }", "MyComponent = () => <div></div>", "Both", "None"],
+    "answer": "Both"
+  },
+  {
+    "id": "q5",
+    "question": "Which hook is used for side effects?",
+    "options": ["useEffect", "useState", "useMemo", "useCallback"],
+    "answer": "useEffect"
+  },
+  {
+    "id": "q6",
+    "question": "In React, what is a key prop used for?",
+    "options": ["Styling", "Event handling", "List identity", "None"],
+    "answer": "List identity"
+  },
+  {
+    "id": "q7",
+    "question": "Debug: <div className= box></div> fails to render. Why?",
+    "options": ["Wrong quotes", "Self-closing tag needed", "Missing class", "Should be class instead of className"],
+    "answer": "Wrong quotes"
+  },
+  {
+    "id": "q8",
+    "question": "What is the virtual DOM?",
+    "options": ["A real browser DOM", "A lightweight copy of the real DOM", "An API", "React's memory"],
+    "answer": "A lightweight copy of the real DOM"
+  },
+  {
+    "id": "q9",
+    "question": "Which file defines routes in React Router?",
+    "options": ["App.js", "routes.js", "index.js", "router.js"],
+    "answer": "App.js"
+  },
+  {
+    "id": "q10",
+    "question": "Which lifecycle method is replaced by useEffect?",
+    "options": ["componentDidMount", "componentWillMount", "componentDidUpdate", "All of these"],
+    "answer": "All of these"
+  },
+  {
+    "id": "q11",
+    "question": "What will this do: useEffect(() => {}, [])",
+    "options": ["Runs on every render", "Runs once", "Never runs", "Runs before render"],
+    "answer": "Runs once"
+  },
+  {
+    "id": "q12",
+    "question": "Which prop is required to uniquely identify list items in React?",
+    "options": ["key", "id", "index", "name"],
+    "answer": "key"
+  },
+  {
+    "id": "q13",
+    "question": "What is the result of: <input value=\"text\" />",
+    "options": ["Uncontrolled input", "Controlled input", "Error", "Static input"],
+    "answer": "Controlled input"
+  },
+  {
+    "id": "q14",
+    "question": "What is JSX?",
+    "options": ["JavaScript syntax extension", "Template engine", "React syntax", "None"],
+    "answer": "JavaScript syntax extension"
+  },
+  {
+    "id": "q15",
+    "question": "What is the default port for React dev server?",
+    "options": ["3000", "8000", "5000", "8080"],
+    "answer": "3000"
+  }
+]
+
+  },
+  {
+    "course": "HTML & CSS",
+    "questions": 
+     [
+  {
+    "id": "htmlcss1",
+    "question": "What does HTML stand for?",
+    "options": ["Hyper Text Markup Language", "Home Tool Markup Language", "Hyperlinks and Text Markup Language", "Hyper Tool Main Link"],
+    "answer": "Hyper Text Markup Language"
+  },
+  {
+    "id": "htmlcss2",
+    "question": "What does CSS stand for?",
+    "options": ["Cascading Style Sheets", "Colorful Style Sheets", "Computer Style Sheets", "Creative Style Syntax"],
+    "answer": "Cascading Style Sheets"
+  },
+  {
+    "id": "htmlcss3",
+    "question": "Which HTML tag is used to create a hyperlink?",
+    "options": ["<a>", "<link>", "<href>", "<hyper>"],
+    "answer": "<a>"
+  },
+  {
+    "id": "htmlcss4",
+    "question": "How do you write a comment in CSS?",
+    "options": ["/* comment */", "// comment", "", "# comment"],
+    "answer": "/* comment */"
+  },
+  {
+    "id": "htmlcss5",
+    "question": "What is the default display value of a <div> element?",
+    "options": ["inline", "block", "inline-block", "none"],
+    "answer": "block"
+  },
+  {
+    "id": "htmlcss6",
+    "question": "Which property is used to change the background color?",
+    "options": ["color", "bgcolor", "background-color", "background"],
+    "answer": "background-color"
+  },
+  {
+    "id": "htmlcss7",
+    "question": "What does the z-index property do?",
+    "options": ["Controls layer stacking", "Controls brightness", "Sets zoom level", "Sets text indentation"],
+    "answer": "Controls layer stacking"
+  },
+  {
+    "id": "htmlcss8",
+    "question": "Which tag is used to create an unordered list?",
+    "options": ["<ol>", "<ul>", "<li>", "<list>"],
+    "answer": "<ul>"
+  },
+  {
+    "id": "htmlcss9",
+    "question": "What does the <img> tag require to display an image?",
+    "options": ["href", "src", "link", "alt"],
+    "answer": "src"
+  },
+  {
+    "id": "htmlcss10",
+    "question": "Which property is used for text color in CSS?",
+    "options": ["font-color", "text-color", "color", "text-style"],
+    "answer": "color"
+  },
+  {
+    "id": "htmlcss11",
+    "question": "How do you add a class in HTML?",
+    "options": ["class='classname'", "class=classname", "cls=classname", "class-name='classname'"],
+    "answer": "class='classname'"
+  },
+  {
+    "id": "htmlcss12",
+    "question": "What is the use of the <head> tag?",
+    "options": ["To define content", "To set meta data", "To write JS only", "For footers"],
+    "answer": "To set meta data"
+  },
+  {
+    "id": "htmlcss13",
+    "question": "Which CSS unit is relative to the root element?",
+    "options": ["em", "rem", "%", "px"],
+    "answer": "rem"
+  },
+  {
+    "id": "htmlcss14",
+    "question": "What is the default position value in CSS?",
+    "options": ["static", "relative", "absolute", "fixed"],
+    "answer": "static"
+  },
+  {
+    "id": "htmlcss15",
+    "question": "Which pseudo-class targets the first child?",
+    "options": [":first-child", ":nth-child(1)", ":first", ":child(1)"],
+    "answer": ":first-child"
+  }
+]
+
+  },
+  {
+    "course": "C++",
+    "questions": 
+     [
+  {
+    "id": "cpp1",
+    "question": "Which of the following is used to define a class in C++?",
+    "options": ["class", "define", "struct", "object"],
+    "answer": "class"
+  },
+  {
+    "id": "cpp2",
+    "question": "Which operator is used for scope resolution in C++?",
+    "options": ["::", ".", "->", ":::"] ,
+    "answer": "::"
+  },
+  {
+    "id": "cpp3",
+    "question": "What is the output of: cout << 5 / 2;",
+    "options": ["2.5", "2", "2.0", "Error"],
+    "answer": "2"
+  },
+  {
+    "id": "cpp4",
+    "question": "Which keyword is used for inheritance?",
+    "options": ["extends", "inherits", "public", "base"],
+    "answer": "public"
+  },
+  {
+    "id": "cpp5",
+    "question": "What is a virtual function?",
+    "options": ["A function defined at runtime", "A function with no return", "A function which can be overridden", "A hidden function"],
+    "answer": "A function which can be overridden"
+  },
+  {
+    "id": "cpp6",
+    "question": "Which of the following is NOT a basic data type in C++?",
+    "options": ["int", "float", "real", "char"],
+    "answer": "real"
+  },
+  {
+    "id": "cpp7",
+    "question": "What does 'cin' represent in C++?",
+    "options": ["Output", "Console", "Input stream", "Character"],
+    "answer": "Input stream"
+  },
+  {
+    "id": "cpp8",
+    "question": "What is the extension of a C++ source file?",
+    "options": [".cpp", ".cc", ".cp", ".c++"],
+    "answer": ".cpp"
+  },
+  {
+    "id": "cpp9",
+    "question": "What will be the output of: cout << 'A' + 1;",
+    "options": ["B", "66", "A1", "Error"],
+    "answer": "66"
+  },
+  {
+    "id": "cpp10",
+    "question": "Which of the following is a loop in C++?",
+    "options": ["repeat", "do...while", "forEach", "iterate"],
+    "answer": "do...while"
+  },
+  {
+    "id": "cpp11",
+    "question": "What is function overloading?",
+    "options": ["Same function name with different parameters", "Calling multiple functions", "Function inside another", "None"],
+    "answer": "Same function name with different parameters"
+  },
+  {
+    "id": "cpp12",
+    "question": "What does new operator do?",
+    "options": ["Deletes memory", "Declares class", "Allocates memory", "Replaces malloc"],
+    "answer": "Allocates memory"
+  },
+  {
+    "id": "cpp13",
+    "question": "Which keyword is used to prevent inheritance?",
+    "options": ["final", "sealed", "private", "virtual"],
+    "answer": "final"
+  },
+  {
+    "id": "cpp14",
+    "question": "What is the correct way to comment in C++?",
+    "options": ["// comment", "", "# comment", "** comment **"],
+    "answer": "// comment"
+  },
+  {
+    "id": "cpp15",
+    "question": "What is the output of: cout << (5 == 5);",
+    "options": ["true", "1", "yes", "false"],
+    "answer": "1"
+  }
+]
+
+  },
+  {
+    "course": "Java",
+    "questions": 
+     [
+  {
+    "id": "java1",
+    "question": "Which of these is a keyword in Java?",
+    "options": ["void", "public", "static", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "id": "java2",
+    "question": "What is the default value of boolean in Java?",
+    "options": ["true", "false", "null", "0"],
+    "answer": "false"
+  },
+  {
+    "id": "java3",
+    "question": "Which method is the entry point for a Java program?",
+    "options": ["main()", "start()", "init()", "run()"],
+    "answer": "main()"
+  },
+  {
+    "id": "java4",
+    "question": "Which keyword is used to create an object in Java?",
+    "options": ["create", "class", "new", "init"],
+    "answer": "new"
+  },
+  {
+    "id": "java5",
+    "question": "What is the size of int in Java?",
+    "options": ["2 bytes", "4 bytes", "8 bytes", "Depends on OS"],
+    "answer": "4 bytes"
+  },
+  {
+    "id": "java6",
+    "question": "What is the parent class of all classes in Java?",
+    "options": ["Object", "Base", "Root", "Superclass"],
+    "answer": "Object"
+  },
+  {
+    "id": "java7",
+    "question": "Which operator is used for concatenation in Java?",
+    "options": ["+", "&", "=", "%"],
+    "answer": "+"
+  },
+  {
+    "id": "java8",
+    "question": "What does JVM stand for?",
+    "options": ["Java Virtual Machine", "Java Verified Mode", "Java Vendor Machine", "None"],
+    "answer": "Java Virtual Machine"
+  },
+  {
+    "id": "java9",
+    "question": "Which of the following is not a primitive type?",
+    "options": ["int", "boolean", "String", "char"],
+    "answer": "String"
+  },
+  {
+    "id": "java10",
+    "question": "What is method overloading?",
+    "options": ["Methods with same name but different parameters", "Method calling other method", "Extending methods", "None"],
+    "answer": "Methods with same name but different parameters"
+  },
+  {
+    "id": "java11",
+    "question": "What is the output of: System.out.println(10 + 20 + \"Hello\");",
+    "options": ["30Hello", "Hello30", "10Hello20", "Error"],
+    "answer": "30Hello"
+  },
+  {
+    "id": "java12",
+    "question": "Which loop executes at least once?",
+    "options": ["for", "while", "do-while", "foreach"],
+    "answer": "do-while"
+  },
+  {
+    "id": "java13",
+    "question": "What is inheritance in Java?",
+    "options": ["Acquiring features from another class", "Creating a new class", "Hiding methods", "None"],
+    "answer": "Acquiring features from another class"
+  },
+  {
+    "id": "java14",
+    "question": "What will be output of: System.out.println(5/2);",
+    "options": ["2.5", "2", "2.0", "Error"],
+    "answer": "2"
+  },
+  {
+    "id": "java15",
+    "question": "Which package contains Scanner class?",
+    "options": ["java.io", "java.util", "java.lang", "java.net"],
+    "answer": "java.util"
+  }
+]
+
+  },
+  {
+    "course": "Node.js",
+    "questions": [
+      { "question": "What is Node.js?", "options": ["A JavaScript framework", "A runtime environment", "A database", "A text editor"], "answer": "A runtime environment" },
+      { "question": "Which keyword is used to import modules?", "options": ["import", "require", "use", "include"], "answer": "require" },
+      { "question": "What is the purpose of `npm`?", "options": ["Node Package Manager", "New Project Module", "Node Programming Manager", "None"], "answer": "Node Package Manager" },
+      { "question": "Node.js is single-threaded. What makes it non-blocking?", "options": ["Worker threads", "Event loop", "Multi-core processing", "Asynchronous libraries"], "answer": "Event loop" },
+      { "question": "Which global object is used for file system operations?", "options": ["http", "fs", "path", "os"], "answer": "fs" },
+      { "question": "How do you create a simple HTTP server?", "options": ["require('http').createServer().listen()", "new Server().run()", "startServer()", "Node.server()"], "answer": "require('http').createServer().listen()" },
+      { "question": "What is the purpose of the `package.json` file?", "options": ["To store API keys", "To define project metadata and dependencies", "To store user data", "To manage CSS files"], "answer": "To define project metadata and dependencies" },
+      { "question": "Which method is used for asynchronous file reading?", "options": ["fs.readFileSync()", "fs.read()", "fs.readFile()", "fs.openFile()"], "answer": "fs.readFile()" },
+      { "question": "What does middleware do in Node.js?", "options": ["It processes requests and responses", "It handles database connections", "It manages front-end logic", "It creates new routes"], "answer": "It processes requests and responses" },
+      { "question": "What is a Stream in Node.js?", "options": ["A data type", "A sequence of data moving from one point to another", "A type of loop", "An error handler"], "answer": "A sequence of data moving from one point to another" },
+      { "question": "What does `process` refer to?", "options": ["A function", "The current Node.js process", "A global variable", "A module"], "answer": "The current Node.js process" },
+      { "question": "Which of these is used for module export?", "options": ["module.exports", "export default", "export", "All of the above"], "answer": "module.exports" },
+      { "question": "What is the `child_process` module for?", "options": ["Creating a new thread", "Executing a program in a separate process", "Managing child components", "None"], "answer": "Executing a program in a separate process" },
+      { "question": "How do you install a package and save it as a dev dependency?", "options": ["npm install package --save-dev", "npm install package -D", "Both of the above", "None of the above"], "answer": "Both of the above" },
+      { "question": "What does `Buffer` represent?", "options": ["A temporary data storage for binary data", "A type of array", "A function", "An object"], "answer": "A temporary data storage for binary data" }
+    ]
+  },
+  {
+    "course": "MongoDB",
+    "questions": [
+      { "question": "What type of database is MongoDB?", "options": ["Relational", "NoSQL", "Graph", "Key-value"], "answer": "NoSQL" },
+      { "question": "In MongoDB, what is a 'document'?", "options": ["A row in a table", "A JSON-like record", "A database file", "A query"], "answer": "A JSON-like record" },
+      { "question": "What is the equivalent of a 'table' in MongoDB?", "options": ["Document", "Collection", "Schema", "Record"], "answer": "Collection" },
+      { "question": "Which command is used to insert a document?", "options": ["db.collection.insert()", "db.collection.add()", "db.collection.create()", "db.collection.put()"], "answer": "db.collection.insert()" },
+      { "question": "How do you find documents in a collection?", "options": ["db.collection.find()", "db.collection.get()", "db.collection.search()", "db.collection.select()"], "answer": "db.collection.find()" },
+      { "question": "What is the default port for MongoDB?", "options": ["27017", "3000", "5000", "8080"], "answer": "27017" },
+      { "question": "What is the purpose of an 'ObjectId'?", "options": ["To uniquely identify documents", "To speed up queries", "To create a timestamp", "To link collections"], "answer": "To uniquely identify documents" },
+      { "question": "Which operator is used for 'AND' in a query?", "options": ["&&", "$and", "AND", "&"], "answer": "$and" },
+      { "question": "How do you update a document in a collection?", "options": ["db.collection.update()", "db.collection.modify()", "db.collection.set()", "db.collection.change()"], "answer": "db.collection.update()" },
+      { "question": "What is the purpose of 'indexes'?", "options": ["To store data permanently", "To improve query performance", "To define the data schema", "To compress data"], "answer": "To improve query performance" },
+      { "question": "Which command is used to drop a database?", "options": ["db.dropDatabase()", "db.deleteDatabase()", "db.removeDatabase()", "db.erase()"], "answer": "db.dropDatabase()" },
+      { "question": "What is 'sharding'?", "options": ["Storing data across multiple machines", "Creating a copy of a database", "Optimizing queries", "Converting data types"], "answer": "Storing data across multiple machines" },
+      { "question": "Which of these is a valid data type in MongoDB?", "options": ["String", "Number", "Array", "All of the above"], "answer": "All of the above" },
+      { "question": "What is an 'embedded document'?", "options": ["A document stored in a separate collection", "A document stored inside another document", "A document stored in memory", "A document that has been archived"], "answer": "A document stored inside another document" },
+      { "question": "What is a 'replica set'?", "options": ["A single database instance", "A group of MongoDB instances that maintain the same data set", "A type of query", "A backup file"], "answer": "A group of MongoDB instances that maintain the same data set" }
+    ]
+  },
+  {
+    "course": "Express.js",
+    "questions": [
+      { "question": "What is Express.js?", "options": ["A front-end framework", "A Node.js web framework", "A database", "A templating engine"], "answer": "A Node.js web framework" },
+      { "question": "How do you set up a simple GET route in Express?", "options": ["app.get('/path', callback)", "app.route('/path').get(callback)", "get('/path', callback)", "Express.get('/path', callback)"], "answer": "app.get('/path', callback)" },
+      { "question": "What is 'middleware' in Express?", "options": ["A function that has access to the request and response objects", "A type of database", "A front-end library", "An authentication method"], "answer": "A function that has access to the request and response objects" },
+      { "question": "How do you access a route parameter named 'id'?", "options": ["req.params.id", "req.query.id", "req.body.id", "req.param('id')"], "answer": "req.params.id" },
+      { "question": "Which method is used to send a JSON response?", "options": ["res.send()", "res.json()", "res.text()", "res.end()"], "answer": "res.json()" },
+      { "question": "How do you serve static files like CSS and images?", "options": ["app.use(express.static('public'))", "app.static('public')", "app.serve('public')", "express.useStatic('public')"], "answer": "app.use(express.static('public'))" },
+      { "question": "What is the purpose of `res.status(404)`?", "options": ["To set a success status code", "To send an error message", "To set the HTTP status code", "To redirect to a new page"], "answer": "To set the HTTP status code" },
+      { "question": "Which of these is a common method for handling form data?", "options": ["Body-parser middleware", "Using `req.query`", "Directly from `req.body`", "None"], "answer": "Body-parser middleware" },
+      { "question": "What is a 'router' in Express?", "options": ["A way to define application-level middleware", "A way to group related route handlers", "A function that handles all requests", "A tool for debugging"], "answer": "A way to group related route handlers" },
+      { "question": "What is `app.listen()` used for?", "options": ["To start a database connection", "To make the server listen for connections on a specified port", "To listen for user input", "To create a new route"], "answer": "To make the server listen for connections on a specified port" },
+      { "question": "Which of the following is a way to handle errors in Express?", "options": ["Using a `try-catch` block", "Using a special error-handling middleware function", "Using `if` statements", "All of the above"], "answer": "Using a special error-handling middleware function" },
+      { "question": "How do you access query parameters?", "options": ["req.query", "req.params", "req.body", "req.data"], "answer": "req.query" },
+      { "question": "What is the purpose of `next()` in middleware?", "options": ["To skip the next middleware", "To pass control to the next middleware function", "To end the request-response cycle", "To restart the server"], "answer": "To pass control to the next middleware function" },
+      { "question": "Which method is used for handling a POST request?", "options": ["app.post()", "app.add()", "app.create()", "app.insert()"], "answer": "app.post()" },
+      { "question": "What is the default templating engine for Express?", "options": ["Handlebars", "Pug", "EJS", "There is no default"], "answer": "There is no default" }
+    ]
+  },
+  {
+    "course": "SQL",
+    "questions": [
+      { "question": "What does SQL stand for?", "options": ["Structured Query Language", "Simple Query Language", "System Query Language", "Structured Question Language"], "answer": "Structured Query Language" },
+      { "question": "Which clause is used to filter records?", "options": ["WHERE", "FILTER", "SELECT", "FROM"], "answer": "WHERE" },
+      { "question": "Which statement is used to retrieve data from a database?", "options": ["SELECT", "GET", "EXTRACT", "OPEN"], "answer": "SELECT" },
+      { "question": "What is a 'primary key'?", "options": ["A key to lock a table", "A unique identifier for each row", "A field with a default value", "A key to sort data"], "answer": "A unique identifier for each row" },
+      { "question": "Which command adds new records to a table?", "options": ["UPDATE", "ADD", "INSERT INTO", "CREATE"], "answer": "INSERT INTO" },
+      { "question": "How do you delete all records from a table?", "options": ["DELETE FROM table_name", "DELETE ALL FROM table_name", "REMOVE FROM table_name", "DROP table_name"], "answer": "DELETE FROM table_name" },
+      { "question": "Which clause sorts the results in ascending order?", "options": ["SORT BY ASC", "ORDER BY ASC", "GROUP BY ASC", "ARRANGE BY ASC"], "answer": "ORDER BY ASC" },
+      { "question": "What is a 'foreign key'?", "options": ["A key that links two tables", "A key used for encryption", "A unique identifier", "A key with no data"], "answer": "A key that links two tables" },
+      { "question": "Which function counts the number of rows?", "options": ["COUNT()", "NUMBER()", "SUM()", "ROWS()"], "answer": "COUNT()" },
+      { "question": "What is the difference between `TRUNCATE` and `DELETE`?", "options": ["TRUNCATE is faster and cannot be rolled back", "DELETE is faster and cannot be rolled back", "They are the same", "TRUNCATE deletes a table, DELETE deletes rows"], "answer": "TRUNCATE is faster and cannot be rolled back" },
+      { "question": "Which operator is used to search for a pattern in a column?", "options": ["LIKE", "SEARCH", "MATCH", "FIND"], "answer": "LIKE" },
+      { "question": "What does the `JOIN` clause do?", "options": ["Combines rows from two or more tables", "Adds a new column to a table", "Creates a new table", "Deletes a table"], "answer": "Combines rows from two or more tables" },
+      { "question": "How do you select only unique values?", "options": ["SELECT UNIQUE", "SELECT DISTINCT", "SELECT SINGLE", "SELECT ONLY"], "answer": "SELECT DISTINCT" },
+      { "question": "Which statement changes existing records in a table?", "options": ["MODIFY", "UPDATE", "CHANGE", "ALTER"], "answer": "UPDATE" },
+      { "question": "What is a 'view' in SQL?", "options": ["A virtual table based on the result-set of a SQL statement", "A graphical user interface", "A type of index", "A stored procedure"], "answer": "A virtual table based on the result-set of a SQL statement" }
+    ]
+  },
+  {
+    "course": "Git & GitHub",
+    "questions": [
+      { "question": "What is the command to initialize a new Git repository?", "options": ["git init", "git new", "git create", "git start"], "answer": "git init" },
+      { "question": "Which command is used to stage changes?", "options": ["git commit", "git add", "git save", "git push"], "answer": "git add" },
+      { "question": "How do you create a new branch?", "options": ["git new branch-name", "git create branch-name", "git branch branch-name", "git make branch-name"], "answer": "git branch branch-name" },
+      { "question": "What does `git commit -m \"message\"` do?", "options": ["Pushes changes to remote", "Saves changes to a new branch", "Saves staged changes with a message", "Merges a branch"], "answer": "Saves staged changes with a message" },
+      { "question": "Which command downloads changes from a remote repository?", "options": ["git fetch", "git pull", "git clone", "git push"], "answer": "git pull" },
+      { "question": "What is a 'merge conflict'?", "options": ["When two branches have the same name", "When changes in different branches conflict", "When a file is too large to merge", "None"], "answer": "When changes in different branches conflict" },
+      { "question": "How do you move from one branch to another?", "options": ["git move branch-name", "git switch branch-name", "git jump branch-name", "git goto branch-name"], "answer": "git switch branch-name" },
+      { "question": "What is a 'fork' on GitHub?", "options": ["A copy of a repository under a new name", "A way to merge branches", "A different version of a file", "A new commit"], "answer": "A copy of a repository under a new name" },
+      { "question": "What is the purpose of `.gitignore`?", "options": ["To ignore errors", "To specify files and directories to be ignored by Git", "To hide code", "To create a new branch"], "answer": "To specify files and directories to be ignored by Git" },
+      { "question": "What does `git clone` do?", "options": ["Creates a new repository", "Creates a local copy of a remote repository", "Uploads changes to a remote repository", "Deletes a repository"], "answer": "Creates a local copy of a remote repository" },
+      { "question": "Which command is used to upload local commits to a remote repository?", "options": ["git pull", "git fetch", "git push", "git send"], "answer": "git push" },
+      { "question": "What is a 'commit'?", "options": ["A snapshot of your repository at a specific time", "A type of branch", "A command to download files", "A new file"], "answer": "A snapshot of your repository at a specific time" },
+      { "question": "What is `HEAD` in Git?", "options": ["The main branch", "A pointer to the current commit", "The first commit", "The latest commit"], "answer": "A pointer to the current commit" },
+      { "question": "Which command is used to see the status of your working directory?", "options": ["git log", "git status", "git check", "git diff"], "answer": "git status" },
+      { "question": "What is a 'pull request'?", "options": ["A request to download a repository", "A request to merge a branch into another", "A type of commit", "A command to delete a branch"], "answer": "A request to merge a branch into another" }
+    ]
+  },
+  {
+    "course": "TypeScript",
+    "questions": [
+      { "question": "What is TypeScript?", "options": ["A new programming language", "A superset of JavaScript", "A JavaScript library", "A database"], "answer": "A superset of JavaScript" },
+      { "question": "Which of these is a valid way to declare a number variable?", "options": ["let age: number = 30;", "let age = number 30;", "let number age = 30;", "var age: int = 30;"], "answer": "let age: number = 30;" },
+      { "question": "What is the purpose of `interfaces`?", "options": ["To define a new data type", "To define a shape of an object", "To create a new class", "To import modules"], "answer": "To define a shape of an object" },
+      { "question": "How do you compile a TypeScript file?", "options": ["ts file.ts", "tsc file.ts", "compile file.ts", "typescript file.ts"], "answer": "tsc file.ts" },
+      { "question": "What is an `enum`?", "options": ["A way to define a set of named constants", "A type of function", "A way to declare an array", "A type of loop"], "answer": "A way to define a set of named constants" },
+      { "question": "What does `void` type represent?", "options": ["A variable with no value", "A function that returns nothing", "An empty array", "An undefined object"], "answer": "A function that returns nothing" },
+      { "question": "What is a 'tuple' in TypeScript?", "options": ["An array with a fixed number of elements and types", "A type of object", "A type of class", "A function that returns a value"], "answer": "An array with a fixed number of elements and types" },
+      { "question": "How do you define an optional property in an interface?", "options": ["name?: string;", "name: optional string;", "name: string | undefined;", "name: string or undefined;"], "answer": "name?: string;" },
+      { "question": "What is the `any` type?", "options": ["A type that accepts any value", "A type for a specific object", "A type for a string", "A type for a number"], "answer": "A type that accepts any value" },
+      { "question": "What is a 'type alias'?", "options": ["A way to create a new type name for an existing type", "A way to define a new variable", "A type of interface", "A way to import a type"], "answer": "A way to create a new type name for an existing type" },
+      { "question": "Which command is used to watch for file changes and recompile?", "options": ["tsc --watch", "tsc -w", "Both of the above", "None of the above"], "answer": "Both of the above" },
+      { "question": "What does `readonly` keyword do?", "options": ["Allows a variable to be read and changed", "Allows a variable to be changed once", "Prevents a variable from being changed after initialization", "Makes a variable global"], "answer": "Prevents a variable from being changed after initialization" },
+      { "question": "What is 'type inference'?", "options": ["The ability of TypeScript to automatically infer the type of a variable", "A way to define a new type", "A type of error", "A way to convert a string to a number"], "answer": "The ability of TypeScript to automatically infer the type of a variable" },
+      { "question": "Which of these is used to define a new type for a literal value?", "options": ["type", "interface", "class", "enum"], "answer": "type" },
+      { "question": "What is the purpose of 'generics'?", "options": ["To create reusable components that work with a variety of types", "To define a new data structure", "To add comments to code", "To define a function with no return value"], "answer": "To create reusable components that work with a variety of types" }
+    ]
+  }
+
+]

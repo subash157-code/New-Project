@@ -1,0 +1,81 @@
+{
+  "title": "Learn, Grow, Succeed",
+  "highlight": "with Us",
+  "description": "Join our industry-focused training programs designed to elevate your skills and land your dream job.STUDY is the best software training institute in Coimbatore, unfolds the finest IT/ITES training services catalog, Our meticulously crafted programs, curated by seasoned experts, guarantee realtime learning, real-project application, and internships. With modern infrastructure, global certifications, and a history of success, we carve future-ready techies. Join us to experience Techvantage learning, master advanced technologies, and step into a world of opportunities.",
+  "buttonText": "Explore Courses",
+  "image": "https://indrainstitute.com/wp-content/uploads/2025/06/student.webp",
+  "stats": [
+    { "value": "5K+", "label": "Total Students" },
+    { "value": "50+", "label": "Partner Companies" },
+    { "value": "8+", "label": "Available Courses" },
+    { "value": "10Y", "label": "Experience" }
+  ],
+  "formtitle": "Book Your Free Demo Class",
+  "subtext": "Experience our world-class teaching before you enroll!",
+  "Technical":"Real Trainers. Real Projects. Real Impact.Our demo class offers more than just a preview — it's your first taste of industry-aligned training. ",
+  "General":"Discover how our hands-on, career-focused training can transform your future. In this 45-minute live session, you'll meet our expert instructors, explore real-world project workflows.",
+  "Motivational":"Don't wait for the perfect opportunity — create it. Our demo class is designed to show you how we bridge the gap between education and employment.",
+"benefits": [
+    {
+      "id": 1,
+      "title": "Personalized Mentorship",
+      "icon": "🎓",
+      "desTitle":"Your journey, your pace, our support — always.",
+      "description": "Get one-on-one guidance from experienced mentors who understand your unique learning style and goals. Stay motivated and on track with customized support. "
+    },
+    {
+      "id": 2,
+      "title": "Fast-Track Learning Outcomes",
+      "icon": "⚡",
+      "desTitle":"Achieve more in less time with structured guidance.",
+      "description": "Accelerate your skill development with structured modules, project-based learning, and real-world case studies that help you learn smarter and faster.Our curriculum is designed for results. "
+    },
+    {
+      "id": 3,
+      "title": "100% Placement Support",
+      "icon": "💼",
+      "desTitle":"We don’t stop at training — we take you all the way to hiring.",
+      "description": "Receive complete placement assistance, resume building, interview training, and direct company connections to land your dream job confidently."
+    }
+  ],
+  "choosen":[
+  {
+    "id": 1,
+    "icon": "🎯",
+    "title": "Goal-Oriented Training",
+    "description": "We focus on outcomes that matter — building your skills to land jobs, not just complete courses."
+  },
+  {
+    "id": 2,
+    "icon": "👨‍🏫",
+    "title": "Expert Mentors",
+    "description": "Learn from industry professionals who’ve worked at top companies and know what recruiters want."
+  },
+  {
+    "id": 3,
+    "icon": "💼",
+    "title": "100% Placement Support",
+    "description": "From resume prep to mock interviews, we’re with you until you get placed — and even after."
+  },
+  {
+    "id": 4,
+    "icon": "🧠",
+    "title": "Smart Learning Methods",
+    "description": "Engaging classes, live projects, and hands-on experience ensure you’re job-ready, not just book-ready."
+  },
+  {
+    "id": 5,
+    "icon": "🕓",
+    "title": "Flexible Learning Options",
+    "description": "Weekday, weekend, online, offline – we fit your schedule. Whether you’re a student, a working professional, or a career switcher."
+  },
+  {
+    "id": 6,
+    "icon": "👨🏻‍💻",
+    "title": "Placement Support That Works",
+    "description": "We don’t stop until you get placed. With resume building, aptitude training, mock HR sessions, and a vast recruiter network, our placement cell is dedicated to your success."
+  }
+
+]
+
+}

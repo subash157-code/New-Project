@@ -1,0 +1,26 @@
+[
+  {
+    "title": "About Us",
+    "description": "At LearnEdge Academy, we believe education is the foundation for success. Our mission is to empower students with knowledge, skills, and confidence through engaging and result-driven training programs. Whether you're preparing for competitive exams, improving your technical abilities, or boosting personal development, we are here to guide your journey.",
+    "image": "https://indrainstitute.com/wp-content/uploads/2025/06/s.webp",
+    "servicesTitle": "Our Services",
+    "services": "We offer a wide range of training programs including technical courses such as Python, Java, Web Development, and AI. We also provide aptitude and reasoning classes to strengthen logical thinking. Our personality development and interview preparation sessions help boost confidence and communication skills. Students benefit from live doubt-clearing sessions along with access to recorded video lectures."
+  },
+  {
+    "titleLogo": "Top Recruiters",
+    "logos": [
+      "https://www.hashicorp.com/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F2885%2F1683590388-hcl-logo-1976.png&w=3840&q=75",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOomiyuo1gMOLrJtxyLb6PtfAg54vvMkOIKM62xXTsFbOJNH0nvpBVvqttZdcRet2Hw94&usqp=CAU",
+      "https://static.businessworld.in/1600345369_QKsChi_tata_consultancy_services_tcs_logo.png",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyScqUYp_Z4-y_t5SnC4zgucTtum5yuJUe0A&s"
+    ]
+  },
+  {
+    "stats": [
+      { "value": "5K+", "label": "Total Students" },
+      { "value": "50+", "label": "Partner Companies" },
+      { "value": "8+", "label": "Available Courses" },
+      { "value": "10Y", "label": "Experience" }
+    ]
+  }
+]

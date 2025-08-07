@@ -1,0 +1,84 @@
+
+[
+  {
+  "officialTeam": [
+    { "id": 1,
+      "name": "Jane Doe",
+      "role": "CEO",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Tom_Cruise_during_the_2025_Cannes_Film_Festival_07.jpg/330px-Tom_Cruise_during_the_2025_Cannes_Film_Festival_07.jpg",
+      "bio": "Over 10 years of experience in corporate leadership and innovation."
+    },
+    { 
+      "id": 2,
+      "name": "Alex Lee",
+      "role": "CTO",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZyh3Vin6a-HAcsa6PvKa2ItuDStICs6Wv17oAd1yx-o1w38eRXig7gsOd31hLcUCM10w&usqp=CAU",
+      "bio": "Expert in scalable systems and tech leadership."
+    },
+    {
+    "id": 3,
+    "name": "Jane Smith",
+    "role": "HR Manager",
+    "experience": "5+ years in Human Resources, talent acquisition, and employee relations.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnvCaQBudNiM4CNiI8V7W9HyJork73WF2Zg_tXIihVmJNQ7Qq_0cE-WjUePEzX4J04MSE&usqp=CAU"
+  },
+   {
+    "id": 4,
+    "name": "Sarah Evans",
+    "role": "Branch Head",
+    "experience": "5+ years managing company operations across multiple branches.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Ana_de_Armas_by_Gage_Skidmore_2.jpg"
+  }
+  ]
+},
+{
+  "trainers": [
+    { "id": 1,
+      "name": "John Smith",
+      "role": "JavaScript Trainer",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaJf-m3-wTC-aN7nJgI3pBULNv29Xm3MLNBjDn0t5AfhaJBKPjf-c1chglc3LCC0Q1-oM&usqp=CAU",
+      "bio": "Expert in modern JavaScript, React, and Node.js with over 8 years of experience.",
+      "quote": "Code is like humor. When you have to explain it, it’s bad."
+    },
+    { "id": 2,
+      "name": "Sara Khan",
+      "role": "Python Trainer",
+      "image": "https://miro.medium.com/v2/resize:fit:1400/1*bXnmKZ0QZRPceR0CGwxXZw.jpeg",
+      "bio": "Specialist in Python, data analysis, and machine learning.",
+       "quote": "In Python we trust."
+    },
+    { "id": 3,
+      "name": "Moin 7",
+      "role": "Java Trainer",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQJfxm91i1WGaJs5cNq0Kk6gtMaejgRv8PxpQRem7PnCWzZDTWTDCVCeCi3g9u5jsVK6A3MHSRVpMWeN0SkdMNje8cMsuX0mMjP2hh1jkE",
+      "bio": "Senior Java developer with expertise in Spring Boot and enterprise systems.",
+       "quote": "Write once, run anywhere."
+    },
+    { "id": 4,
+      "name": "Ayesha Ray",
+      "role": "Full Stack Trainer",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYfkQ_DSRL_hPkL6zVFHrTMONDRZHMRj0Do-tNQ_3FFuNmEEz9dzJRWi3y9hxzT6t72FM&usqp=CAU",
+      "bio": "Skilled in MERN stack and cloud-based deployment practices.",
+      "quote": "Building the future one stack at a time."
+    },
+     {
+    "id": 5,
+    "name": "Jane Smith",
+    "role": "MEAN Stack",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnvCaQBudNiM4CNiI8V7W9HyJork73WF2Zg_tXIihVmJNQ7Qq_0cE-WjUePEzX4J04MSE&usqp=CAU",
+    "bio": "Skilled in MERN stack and cloud-based deployment practices.",
+    "quote": "Building the future one stack at a time."
+  },
+   {
+    "id": 6,
+    "name": "Sarah Evans",
+    "role": "MERN Stack",
+    "experience": "5+ years managing company operations across multiple branches.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Ana_de_Armas_by_Gage_Skidmore_2.jpg",
+    "bio": "Skilled in MERN stack and cloud-based deployment practices.",
+     "quote": "Building the future one stack at a time."
+  }
+  ]
+}
+]
+

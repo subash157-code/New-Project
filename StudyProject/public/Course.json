@@ -1,0 +1,93 @@
+[
+  {
+    "category": "AI",
+    "courses": [
+      { "id": 1, "title": "AI & Machine Learning", "description": "Master AI algorithms and neural networks.", "image": "https://apollouniversity.edu.in/blog/wp-content/uploads/2025/04/1-3.jpg" ,"payment":25000,"duration":"3-4 months"},
+      { "id": 2, "title": "Deep Learning with TensorFlow", "description": "Use TensorFlow to build deep models.", "image": "https://d3an9kf42ylj3p.cloudfront.net/uploads/2023/01/pg_AIandMLtrends2023_jan-23.jpg" ,"payment":25000,"duration":"3-4 months"},
+      { "id": 3, "title": "Natural Language Processing", "description": "Explore text classification and NLP with Python.", "image": "https://www.simplilearn.com/ice9/free_resources_article_thumb/Deep-Learning-vs-Machine-Learning.jpg","payment":25000,"duration":"3-4 months" },
+      { "id": 4, "title": "AI in Computer Vision", "description": "Build image recognition systems.", "image": "https://bernardmarr.com/img/Are%20Machine%20Learning%20And%20AI%20The%20Same.jpg" ,"payment":25000,"duration":"3-4 months"}
+    ]
+  },
+  {
+    "category": "Cyber Security",
+    "courses": [
+      { "id": 5, "title": "Ethical Hacking", "description": "Learn penetration testing tools and techniques.", "image": "https://s44783.pcdn.co/in/wp-content/uploads/sites/3/2022/07/ethical-hacking.jpg.optimal.jpg","payment":25000,"duration":"3-4 months" },
+      { "id": 6, "title": "Network Security", "description": "Protect networks from attacks and breaches.", "image": "https://www.businesstechweekly.com/wp-content/uploads/2023/04/Ethical-Hacking.jpg","payment":25000,"duration":"3-4 months" },
+      { "id": 7, "title": "Cyber Forensics", "description": "Recover and investigate digital evidence.", "image": "https://media.licdn.com/dms/image/v2/D5612AQF1tvbxW_zMiQ/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1682091867599?e=2147483647&v=beta&t=7cj-XzB-Gxjmvwh_2ceGXdGyW1USroC0zcOaNXTI_VA","payment":25000,"duration":"3-4 months" },
+      { "id": 8, "title": "Web App Security", "description": "Prevent OWASP top 10 vulnerabilities.", "image": "https://www.bridgingminds.net/wp-content/uploads/2022/12/the-important-skills-needed-for-professional-ethical-hackers.jpg.jpg","payment":25000,"duration":"3-4 months" },
+      { "id": 9, "title": "Firewall & IDS", "description": "Configure firewall and intrusion detection systems.", "image": "https://eduspiral.com/wp-content/uploads/2022/05/dreamstime_m_123641233.jpeg" ,"payment":25000,"duration":"3-4 months"}
+    ]
+  },
+  {
+    "category": "Web Development",
+    "courses": [
+      { "id": 10, "title": "Javascript", "description": "Build end-to-end applications using MERN stack.", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvGCDR5nBpsRnjkCoIccrnqoKpDSYUTG7MLA&s","payment":25000,"duration":"3-4 months" },
+      { "id": 11, "title": "Frontend with React", "description": "Develop dynamic UIs with React.js.", "image": "https://dianapps.com/blog/wp-content/uploads/2024/06/Add-a-heading-39.png","payment":25000,"duration":"3-4 months" },
+      { "id": 12, "title": "MERN Stack", "description": "Create APIs using Express and Node.", "image": "https://www.cdmi.in/courses@2x/web-developments.webp","payment":25000,"duration":"3-4 months" },
+      { "id": 13, "title": "MEAN Stack", "description": "Use HTML5, CSS3, and Flexbox/Grid.", "image": "https://www.simplilearn.com/ice9/free_resources_article_thumb/is_web_development_good_career.jpg","payment":25000,"duration":"3-4 months" }
+    ]
+  },
+  {
+    "category": "Data Science",
+    "courses": [
+      { "id": 14, "title": "Python for Data Science", "description": "Learn data analysis with Pandas & NumPy.", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2RzGeikAnS5cPgbYPavFrQmzbb6FVoTjWPw&s","payment":25000,"duration":"3-4 months" },
+      { "id": 15, "title": "Data Visualization with Power BI", "description": "Build dashboards and charts.", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST5xc5hhy993K1s72KxIhTkpOfBEh5D0SFIw&s","payment":25000,"duration":"3-4 months" },
+      { "id": 16, "title": "Statistics for Data Science", "description": "Master statistical thinking and probability.", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl-AZjOBsjiwGUYDQA2VMhih5s60Up9XXvZ3nGKJyoLBWbKZi2DjF7EmnOYCFTnQSmD1U&usqp=CAU","payment":25000,"duration":"3-4 months" },
+      { "id": 17, "title": "Data Wrangling in R", "description": "Clean and transform data using R.", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuMCh6UOQsHMe-gJ4-iSSHs8TpPzKg5RIdaeKOxf-1t27cEmly3YZGnueQsonWHAR7rl8&usqp=CAU","payment":25000,"duration":"3-4 months" }
+    ]
+  },
+  {
+    "category": "Cloud Computing",
+    "courses": [
+      { "id": 18, "title": "AWS Cloud Practitioner", "description": "Get started with AWS services.", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkCnyOgBUuIQcLF5udfPRUVqPRWZNn6iIHYQ&s","payment":25000,"duration":"3-4 months" },
+      { "id": 19, "title": "Azure Fundamentals", "description": "Learn core Azure concepts and services.", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz0w7MylN4m2JriAy_6Kl65xIM0yAgMzTeRQ&s","payment":25000,"duration":"3-4 months" },
+      { "id": 20, "title": "Google Cloud Essentials", "description": "Understand GCP basics & IAM.", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0hCQQZl66EPQ7bRvS2s3NL3Wv8_uh6jF_MFM3TgIUpnakYfmdxqz5q8MLini8hj_uHTY&usqp=CAU" ,"payment":25000,"duration":"3-4 months"},
+      { "id": 21, "title": "Cloud DevOps Tools", "description": "CI/CD pipelines with Jenkins & GitHub.", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY-AajYLmqjNTL7ocDA9m4xzwjpXr-TZUM9-tslhCsH4DvGMAraKTduOLHVjAmU8kHAuA&usqp=CAU","payment":25000,"duration":"3-4 months" }
+    ]
+  },
+  {
+    "category": "Mobile App Development",
+    "courses": [
+      { "id": 22, "title": "Android App Development", "description": "Build apps using Java/Kotlin & Android Studio.", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrKN8Czb174E312H9zZ5TeQSsN27z3P0XcHg&s","payment":25000,"duration":"3-4 months" },
+      { "id": 23, "title": "iOS App Development", "description": "Learn Swift and Xcode for iOS.", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeMS6OEPr4N4Jznrr62AAmwtu1OS1Q7EXMRN4CCN5arvMzPGix2dj1_cEyro0E26eKoKM&usqp=CAU" ,"payment":25000,"duration":"3-4 months"},
+      { "id": 24, "title": "React Native Crash Course", "description": "Create cross-platform mobile apps.", "image": "https://ideausher.com/wp-content/uploads/2022/04/covr-image-2_result.webp","payment":25000,"duration":"3-4 months" },
+      { "id": 25, "title": "Flutter for Beginners", "description": "Build native apps with Dart & Flutter.", "image": "https://ideausher.com/wp-content/uploads/2022/04/covr-image-2_result.webp" ,"payment":25000,"duration":"3-4 months"}
+    ]
+  },
+  {
+    "category": "DevOps",
+    "courses": [
+      { "id": 26, "title": "DevOps Fundamentals", "description": "Intro to DevOps culture and pipelines.", "image": "https://softentec.com/wp-content/uploads/2023/05/Devops.jpg","payment":25000,"duration":"3-4 months" },
+      { "id": 27, "title": "Docker & Kubernetes", "description": "Containerize and orchestrate applications.", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3HCqlVUBEbcE2sKsPFrf7UyM6fiwLrFeOiqgeTlWLTId1kAlIVglRX-CFSs0rsGXarR4&usqp=CAU","payment":25000,"duration":"3-4 months" },
+      { "id": 28, "title": "CI/CD with Jenkins", "description": "Automate testing and deployment.", "image": "https://www.webasha.com/uploads/course/images/6342a51723b091665312023.DevOps-Training.jpg","payment":25000,"duration":"3-4 months" },
+      { "id": 29, "title": "Ansible for Automation", "description": "Infrastructure as Code using Ansible.", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiPxW1u_bbzm6MgQLMWNN5Kia39DeYRYWspsP-YsQDUOFHgA9_t6OA9J9v-eZ8qa4zdqk&usqp=CAU","payment":25000,"duration":"3-4 months" }
+    ]
+  },
+  {
+    "category": "Digital Marketing",
+    "courses": [
+      { "id": 30, "title": "SEO Mastery", "description": "Optimize websites for search engines.", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyGBleLiZGionfW1YmzTPNUrplwhEAv9R0SQ&s","payment":25000,"duration":"3-4 months" },
+      { "id": 31, "title": "Google Ads & PPC", "description": "Drive traffic using paid ads.", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-MrV1c_6HxsIpzJ_nBvwBzvXYeWklnl7EfQ&s" ,"payment":25000,"duration":"3-4 months"},
+      { "id": 32, "title": "Social Media Marketing", "description": "Promote on Facebook, Insta, Twitter.", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc_QLMaHCpvzX29EIRhYqDvq0HnqjkNHSdVToHmd_qUBNIMykuBG8gMg0YylT4k4rTO_A&usqp=CAU","payment":25000,"duration":"3-4 months" },
+      { "id": 33, "title": "Email Marketing Automation", "description": "Campaigns using Mailchimp & tools.", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSoIukDz4RkYVjjbllQ4XtLxe5Q8TjihcvLkihibSlVl9og9RX1WKNV7FIRZIVowQSALc&usqp=CAU" ,"payment":25000,"duration":"3-4 months"}
+    ]
+  },
+  {
+    "category": "Soft Skills",
+    "courses": [
+      { "id": 34, "title": "Personality Development", "description": "Boost your confidence and charisma.", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr3J5KO6PLfSyZWPfy489PW70XfdcdT6QHBg&s" ,"payment":25000,"duration":"3-4 months"},
+      { "id": 35, "title": "Communication Skills", "description": "Effective speaking and writing.", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr3J5KO6PLfSyZWPfy489PW70XfdcdT6QHBg&s" ,"payment":25000,"duration":"3-4 months"},
+      { "id": 36, "title": "Interview Preparation", "description": "Crack HR and technical interviews.", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr3J5KO6PLfSyZWPfy489PW70XfdcdT6QHBg&s","payment":25000,"duration":"3-4 months" },
+      { "id": 37, "title": "Leadership Skills", "description": "Become a confident team leader.", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr3J5KO6PLfSyZWPfy489PW70XfdcdT6QHBg&s","payment":25000,"duration":"3-4 months" }
+    ]
+  },
+  {
+    "category": "Programming Basics",
+    "courses": [
+      { "id": 38, "title": "C Programming", "description": "Start coding with C fundamentals.", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZScBYL-nuB4uApHlOOf1XN-33SD6M7vVNFg&s","payment":25000,"duration":"3-4 months" },
+      { "id": 39, "title": "C++ for Beginners", "description": "Object-oriented programming in C++.", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZScBYL-nuB4uApHlOOf1XN-33SD6M7vVNFg&s" ,"payment":25000,"duration":"3-4 months"},
+      { "id": 40, "title": "Java Fundamentals", "description": "Start strong with Java basics.", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZScBYL-nuB4uApHlOOf1XN-33SD6M7vVNFg&s" ,"payment":25000,"duration":"3-4 months"},
+      { "id": 41, "title": "Python Programming", "description": "Learn syntax, data types, functions, OOP.", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZScBYL-nuB4uApHlOOf1XN-33SD6M7vVNFg&s","payment":25000,"duration":"3-4 months" }
+    ]
+  }
+]
