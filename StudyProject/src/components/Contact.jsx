@@ -21,7 +21,7 @@ const Contact = () => {
   e.preventDefault();
 
   try {
-    const response = await axios.post("https://new-project-backend-hhl0.onrender.com/contact", formData);
+    const response = await axios.post("https://new-project-backend-hhl0.onrender.com/api/contact", formData);
     if (response.status === 201) {
       alert("Thank you for contacting us!");
       setFormData({
