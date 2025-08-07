@@ -14,7 +14,7 @@ import {
 } from "react-icons/fi";
 import "../StyleFile/Admin.css";
 
-const API = "https://new-project-backend-hhl0.onrender.com";
+const API = "https://new-project-backend-hhl0.onrender.com/api";
 
 const AdminDashboard = () => {
   const [dashboard, setDashboard] = useState({});
