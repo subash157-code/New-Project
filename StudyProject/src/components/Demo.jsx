@@ -13,7 +13,7 @@ export default function Demo() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("https://new-project-backend-hhl0.onrender.com/democlass", form);
+      const res = await axios.post("https://new-project-backend-hhl0.onrender.com/api/democlass", form);
       if (res.data.success) {
         setSubmitted(true);
         setMessage(res.data.message);
