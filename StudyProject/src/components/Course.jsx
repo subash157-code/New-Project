@@ -83,7 +83,7 @@ const fetchCourses = async () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:5000/api/userdetails", formData);
+      await axios.post("https://new-project-backend-hhl0.onrender.com/userdetails", formData);
       setSubmitted(true);
       setFormData({ name: "", email: "", mobile: "" });
     } catch (err) {
