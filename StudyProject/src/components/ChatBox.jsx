@@ -58,7 +58,7 @@ const ChatBox = ({ onClose }) => {
     if (submitted) return;
     setMessages((prev) => [...prev, { from: 'bot', text: 'Submitting your answers...' }]);
     try {
-      const response = await axios.post('https://new-project-backend-hhl0.onrender.com/submit', answers, {
+      const response = await axios.post('https://new-project-backend-hhl0.onrender.com/api/submit', answers, {
         headers: { 'Content-Type': 'application/json' },
       });
       setMessages((prev) => [
