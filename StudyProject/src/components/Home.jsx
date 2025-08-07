@@ -80,7 +80,7 @@ const Home = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("https://new-project-backend-hhl0.onrender.com/newuser", formData);
+      await axios.post("https://new-project-backend-hhl0.onrender.com/api/newuser", formData);
       setSubmitted(true);
       setFormData({ name: "", email: "", course: "", date: "", message: "" });
     } catch (err) {
