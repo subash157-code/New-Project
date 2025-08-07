@@ -54,7 +54,7 @@ const CourseQuiz = () => {
     };
 
     try {
-    await axios.post("https://new-project-backend-hhl0.onrender.com/userresults", result);
+    await axios.post("https://new-project-backend-hhl0.onrender.com/api/userresults", result);
     } catch (error) {
       console.error("Error saving result:", error);
     }
