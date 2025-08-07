@@ -19,7 +19,7 @@ const OnlineClass = () => {
     setLoading(true);
     try {
       // Using GET: backend must have app.get('/api/paymentbooking')
-      const res = await axios.get("https://new-project-backend-hhl0.onrender.com/paymentbooking", {
+      const res = await axios.get("https://new-project-backend-hhl0.onrender.com/api/paymentbooking", {
         params: {
           username: formData.username,
           password: formData.password,
@@ -31,7 +31,7 @@ const OnlineClass = () => {
         setUserInfo(res.data.user);
         navigate("/classdashboard", { state: { user: res.data.user } });
 
-        await axios.post("https://new-project-backend-hhl0.onrender.com/Logininfo", {
+        await axios.post("https://new-project-backend-hhl0.onrender.com/api/Logininfo", {
           username: formData.username,
           password: formData.password,
           date: new Date().toISOString(),
