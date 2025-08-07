@@ -5,7 +5,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import "./StyleFile/StudyEvent.css";
 
-const API = "http://localhost:5000/api";
+const API = "https://new-project-backend-hhl0.onrender.com";
 
 const StudyEvent = ({ onBack }) => {
   const [events, setEvents] = useState([]);
