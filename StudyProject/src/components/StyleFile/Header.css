@@ -146,7 +146,7 @@ body {
 }
 
 /* Media Query for Mobile and Tablet (767px and below) */
-@media (max-width: 767px) {
+@media (max-width: 850px) {
   .header {
     padding: 1rem 1.5rem;
   }
